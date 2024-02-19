@@ -31,7 +31,6 @@
     --fc-white80: #CCCCCC;
     --bg-whitelight: #EFEFEF;
     --bg-lightwhite: #FDFCFC;
-
 }
 
 .bg-choose {
@@ -95,8 +94,6 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
-
-
 /* ==========nav========== */
 .gap-32 {
     gap: 32px;
@@ -319,21 +316,15 @@
     width: 90%;
     background: linear-gradient(121.85deg, rgba(119, 176, 0, 0.02) -1.54%, rgba(0, 216, 99, 0.02) 98.96%);
     backdrop-filter: blur(50px);
-    /* position: absolute; */
     top: 70%;
-    /* left: 30%; */
 }
 
 .hero_box {
-    /* height: 110px; */
     margin: 22px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-
-
 .box_number {
     font-family: 'Plus Jakarta Display', sans-serif;
     font-size: var(--fs-2xl);
@@ -347,7 +338,6 @@
     font-weight: 400;
     line-height: 26px;
 }
-
 /* =========0ur-mission ===========*/
 .pt-124 {
     padding-top: 124px;
@@ -364,10 +354,6 @@
 .mt-9 {
     margin-top: 9px;
 }
-
-/* .max-w-276 {
-    max-width: 276px;
-} */
 
 .ellips_mission {
     width: 200px;
@@ -390,10 +376,6 @@
     bottom: 2%;
     left: 0;
 }
-
-/* .row>* {
-    padding-right: 0 !important;
-} */
 
 .iconBox {
     width: 88px;
@@ -431,36 +413,9 @@
     padding-left: 10px;
 }
 
-
-/* .vision_box {
-    border-radius: 16px;
-    padding: 12px 24px 12px 12px;
-    border: 2px solid transparent;
-    border-image: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%)1;
-} */
-/* .vision_box {
-    position: relative;
-} */
-
-.vision_box {
-    /* border-radius: 16px;
-    border: 0.5px solid transparent;
-    background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%) border-box;
-    -webkit-mask:
-        linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude; */
-}
-
 .vision_box {
     position: relative;
     padding: 12px 24px 12px 12px;
-}
-
-.vision_box:hover {
-    /* border: 0.5px solid transparent; */
-    /* box-shadow: 0px 3px 15px 3px rgba(182, 182, 182); */
 }
 
 .vision_box::before {
@@ -520,7 +475,6 @@
     min-height: 270px;
     border: 0.5px solid var(--fc-lightgrey);
     border-radius: 16px;
-    /* max-width: 364px; */
     padding: 20px 20px 40px 20px;
     transition: all 300ms linear;
     cursor: pointer;
