@@ -94,6 +94,7 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
 /* ==========nav========== */
 .gap-32 {
     gap: 32px;
@@ -325,6 +326,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .box_number {
     font-family: 'Plus Jakarta Display', sans-serif;
     font-size: var(--fs-2xl);
@@ -338,6 +340,12 @@
     font-weight: 400;
     line-height: 26px;
 }
+
+.border_lg_Right {
+    border-right: 1px solid white;
+    border-image: linear-gradient(270deg, #FDFCFC 0%, #FDFCFC 51.55%, #000000 100%)1;
+}
+
 /* =========0ur-mission ===========*/
 .pt-124 {
     padding-top: 124px;
@@ -600,7 +608,7 @@
     width: 220px;
     height: 220px;
     background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);
-    filter: blur(280px);
+    filter: blur(200px);
     position: absolute;
 }
 
@@ -669,11 +677,6 @@
 
     .box {
         top: 64%;
-    }
-
-    .border_lg_Right {
-        border-right: 1px solid white;
-        border-image: linear-gradient(270deg, #FDFCFC 0%, #FDFCFC 51.55%, #000000 100%)1;
     }
 }
 
@@ -800,5 +803,9 @@
 
     .h_20 {
         height: 20px;
+    }
+
+    .l_text {
+        line-height: 20px;
     }
 }
